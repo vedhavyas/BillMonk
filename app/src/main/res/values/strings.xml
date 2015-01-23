@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bill Monk</string>
+    <string name="title_activity_main_drawer">MainDrawer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_bill">AddBill</string>
+    <string name="title_activity_view_folders">ViewFolders</string>
+    <string name="title_activity_folder_bills">FolderBills</string>
+    <string name="title_activity_pdfviewer">PDFViewer</string>
+    <string name="title_activity_search_result_view">SearchResultView</string>
+    <string name="title_activity_bill_edit">BillEdit</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+    <style name="Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">42dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="NavigationDrawer" parent="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar">
+        <item name="colorPrimary">@color/com_red</item>
+        <item name="colorPrimaryDark">@color/com_red</item>
+        <item name="colorAccent">@color/com_gray</item>
+    </style>
+
+    <style name="SettingsButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/normal_btn</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

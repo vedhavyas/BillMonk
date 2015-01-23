@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.digital.bills" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait"
+            android:theme="@style/NavigationDrawer" />
+        <activity
+            android:name=".AddBill"
+            android:label="@string/title_activity_add_bill"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewFolders"
+            android:label="@string/title_activity_view_folders"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FolderBills"
+            android:label="@string/title_activity_folder_bills"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name=".ObjectService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".PDFViewer"
+            android:label="@string/title_activity_pdfviewer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SearchResultView"
+            android:label="@string/title_activity_search_result_view" >
+        </activity>
+        <activity
+            android:name=".BillEdit"
+            android:label="@string/title_activity_bill_edit" >
+        </activity>
+    </application>
+
+</manifest>
